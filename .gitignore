@@ -1,0 +1,14 @@
+artifacts/
+mlruns/
+data/
+mlflow.db
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
