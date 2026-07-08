@@ -53,7 +53,7 @@ def main():
         ("classifier", LogisticRegression(max_iter=1000))
     ])
 
-    mlflow.set_experiment("customer_churn")
+    mlflow.set_experiment("customer_churn_project")
 
     with mlflow.start_run(run_name="logistic_baseline"):
 
