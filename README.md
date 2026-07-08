@@ -149,7 +149,21 @@ Several configurations were manually compared and tracked with MLflow.
 
 # Experiment Tracking (MLflow)
 
-All experiments are tracked using MLflow.
+All experiments are tracked using **MLflow**.
+
+To launch the MLflow tracking interface:
+
+```bash
+mlflow ui
+```
+
+Then open:
+
+```
+http://localhost:5000
+```
+
+to explore and compare experiment runs.
 
 Logged information includes:
 
@@ -176,10 +190,6 @@ Logged information includes:
 - ROC Curve
 - Precision-Recall Curve
 - Trained model
-
-Example:
-
-![MLflow](images/mlflow.png)
 
 ---
 
